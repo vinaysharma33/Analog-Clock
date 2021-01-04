@@ -10,7 +10,6 @@
 
 #hour, #minutes, #seconds{
     width: 1%;
-    height: 26%;
     background-color: black;
     position: absolute;
     top: 9vw;

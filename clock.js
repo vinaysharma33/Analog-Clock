@@ -1,3 +1,7 @@
+let Hour=document.getElementById('hour');
+let Minutes=document.getElementById('minutes');
+let Seconds=document.getElementById('seconds');
+
 setInterval(() => {
     let d=new Date();
     let thour=d.getHours();
@@ -8,7 +12,7 @@ setInterval(() => {
     let minuteRotate=6*tminute;
     let secondRotate=6*tsecond;
 
-    hour.style.transform=`rotate(${hourRotate}deg)`;
-    minutes.style.transform=`rotate(${minuteRotate}deg)`;
-    seconds.style.transform=`rotate(${secondRotate}deg)`;
+    Hour.style.transform=`rotate(${hourRotate}deg)`;
+    Minutes.style.transform=`rotate(${minuteRotate}deg)`;
+    Seconds.style.transform=`rotate(${secondRotate}deg)`;
 }, 1000);
